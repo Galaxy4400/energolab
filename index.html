@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Стартовая сборка</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script>
+		const LOCALIZATION = 'Russian'; // English, Spanish... Ключ локализации. При необходимости изменять в соответствии с ответом сервера.
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top header-top">
+				<div class="header-top__container _container">
+					<div class="header-top__body">
+						<div class="header-top__left">
+							<span class="header-top__address _icon-mark">г. Москва, ул. Нижняя Красносельская, д. 5, стр. 6, к. 2</span>
+							<span class="header-top__time">Пн-пт 09:00–18:00</span>
+						</div>
+						<div class="header-top__right">
+							<div class="header-top__contact">
+								<a class="header-top__phone" href="tel:84959260215">8 (495) 926-02-15</a>
+								<a class="header-top__callback" href="#">Заказать звонок</a>
+							</div>
+							<a class="header-top__email" href="mailto:post@energolab.com">post@energolab.com</a>
+							<a class="header-top__yt _icon-yt" href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom header-bottom">
+				<div class="header-bottom__container _container">
+					<div class="header-bottom__body">
+						<div class="header-bottom__left">
+							<a class="header-bottom__logo logo" href="#">
+								<img src="assets/img/logo.svg" alt="logo">
+							</a>
+						</div>
+						<div class="header-bottom__center">
+							<div class="menu" data-menu="main-menu">
+								<nav class="menu__body" data-menu-container="main-menu">
+									<button class="menu__close _system-icon-close" type="button" data-menu-close></button>
+									<ul class="menu__list">
+										<li class="menu__item" data-menu-item><a class="menu__link" href="#">О компании </a></li>
+										<li class="menu__item" data-menu-item><a class="menu__link" href="#">Новости</a></li>
+										<li class="menu__item" data-menu-item><a class="menu__link" href="#">Медиа</a></li>
+										<li class="menu__item" data-menu-item><a class="menu__link" href="#">Вакансии</a></li>
+										<li class="menu__item" data-menu-item><a class="menu__link" href="#">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="header-bottom__right">
+							<form class="header-bottom__search search" action="." method="get">
+								<button class="search__btn _icon-search" type="submit"></button>
+								<input class="search__input input" type="text" name="s" placeholder="Поиск">
+							</form>
+							<button class="header-bottom__search-btn _icon-search" data-link="search"></button>
+							<button class="header-bottom__menu-icon menu-icon" type="button" data-menu-icon="main-menu"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<main class="page">
+
+			<section class="directions">
+				<div class="directions__container _container">
+					<h2 class="directions__title line-left">НАПРАВЛЕНИЯ ДЕЯТЕЛЬНОСТИ</h2>
+					<div class="directions__body">
+						<div class="directions__card directions-card directions-card_big">
+							<a class="directions-card__image _ibg" href="#">
+								<img src="assets/img/c1.jpg" alt="card">
+							</a>
+							<div class="directions-card__content">
+								<div class="directions-card__tags">
+									<div class="directions-card__tag"><span>AE</span> analytical equipment</div>
+								</div>
+								<h3 class="directions-card__title"><a href="#">Департамент лабораторно-аналитического оборудования</a></h3>
+								<p class="directions-card__text">Sintecon, Focused Photonics, Xiangyi Instrument, Optosky Spectroscopy  Solutions, GBC, MembraPURE, Metrohm, SARTORIUS, Vibra, Anton Paar, HITEC, SCP Science, SAMBORI, СМАРТХРОМ, Miele professional, CONOSTAN.</p>
+							</div>
+							<span class="directions-card__number">01</span>
+						</div>
+						<div class="directions__card directions-card">
+							<a class="directions-card__image _ibg" href="#">
+								<img src="assets/img/c2.jpg" alt="card">
+							</a>
+							<div class="directions-card__content">
+								<div class="directions-card__tags">
+									<div class="directions-card__tag"><span>AE</span> analytical equipment</div>
+								</div>
+								<h3 class="directions-card__title"><a href="#">Инженерно-сервисная служба</a></h3>
+								<p class="directions-card__text">Проведение пуско-наладочных, диагностических работ, технического обслуживания и ремонтов.</p>
+							</div>
+							<span class="directions-card__number">02</span>
+						</div>
+						<div class="directions__card directions-card">
+							<a class="directions-card__image _ibg" href="#">
+								<img src="assets/img/c3.jpg" alt="card">
+							</a>
+							<div class="directions-card__content">
+								<div class="directions-card__tags">
+									<div class="directions-card__tag"><span>AE</span> analytical equipment</div>
+								</div>
+								<h3 class="directions-card__title"><a href="#">Научно-образовательный центр</a></h3>
+								<p class="directions-card__text">Обучение теоретическим основам и практическому применению современных  методов химического анализа в различных отраслях промышленности.</p>
+							</div>
+							<span class="directions-card__number">03</span>
+						</div>
+						<div class="directions__card directions-card">
+							<a class="directions-card__image _ibg" href="#">
+								<img src="assets/img/c4.jpg" alt="card">
+							</a>
+							<div class="directions-card__content">
+								<div class="directions-card__tags">
+									<div class="directions-card__tag"><span>EPC</span> project managementx</div>
+								</div>
+								<h3 class="directions-card__title"><a href="#">Департамент управления ЕРС-проектами</a></h3>
+								<p class="directions-card__text">Производство, подбор и поставка оборудования для энергетического  комплекса. Решения по обогреву КИПиА (термочехлы Хиттерм®, Термотек® /  Фаиртек® и термошкафы ШПТ®, ШПТ-М®), телемеханики, связи и прочего  технологического оборудования.</p>
+							</div>
+							<span class="directions-card__number">04</span>
+						</div>
+						<div class="directions__card directions-card">
+							<a class="directions-card__image _ibg" href="#">
+								<img src="assets/img/c5.jpg" alt="card">
+							</a>
+							<div class="directions-card__content">
+								<div class="directions-card__tags">
+									<div class="directions-card__tag"><span>MT</span> metalworking equipment</div>
+								</div>
+								<h3 class="directions-card__title"><a href="#">Департамент металлообрабатывающего оборудования</a></h3>
+								<p class="directions-card__text">Установки для нанесения покрытий, токарные станки, фрезерные станки, шлифовальные станки.</p>
+							</div>
+							<span class="directions-card__number">05</span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="news">
+				<div class="news__container _container">
+					<h2 class="news__title line-left">НОВОСТИ</h2>
+					<div class="news__body">
+						<div class="news__card news-card news-card_big">
+							<a class="news-card__image _ibg" href="#">
+								<img src="assets/img/n1.jpg" alt="news">
+							</a>
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">20 июля 2024</span>
+									<a class="news-card__link" href="#">Блог</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">«Энерголаб» подводит итоги участия в XXII международной выставке «Аналитика Экспо 2024»</a></h4>
+								<p class="news-card__text">В этот замечательный день коллектив «Энерголаб» поздравляют всех  специалистов нефтегазовой отрасли с их профессиональным праздником и  желает им самые теплые и искренние поздравления!</p>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card">
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">5 июня 2024</span>
+									<a class="news-card__link" href="#">Новости</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">«Энерголаб» поздравляет с Днем работника нефтяной и газовой промышленности!</a></h4>
+								<p class="news-card__text">В этот замечательный день коллектив «Энерголаб» поздравляют всех  специалистов нефтегазовой отрасли с их профессиональным праздником и  желает им самые теплые и искренние поздравления!</p>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card">
+							<a class="news-card__image _ibg" href="#">
+								<img src="assets/img/n2.jpg" alt="news">
+							</a>
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">15 мая 2024</span>
+									<a class="news-card__link" href="#">Мероприятия</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">Коллектив «Энерголаб» поздравляет с Днем России!</a></h4>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card">
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">5 июня 2024</span>
+									<a class="news-card__link" href="#">Блог</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">«Энерголаб» - поставщик спектрального оборудования Sintecon.</a></h4>
+								<p class="news-card__text"> С 2001 года компания «Энерголаб» специализируется на технических решениях и поставках высокотехнологичного лабораторного и аналитического оборудования ведущих мировых производителей...</p>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card">
+							<a class="news-card__image _ibg" href="#">
+								<img src="assets/img/n3.jpg" alt="news">
+							</a>
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">15 мая 2024</span>
+									<a class="news-card__link" href="#">Мероприятия</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">Коллектив «Энерголаб» поздравляет с Днем России!</a></h4>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card">
+							<a class="news-card__image _ibg" href="#">
+								<img src="assets/img/n4.jpg" alt="news">
+							</a>
+							<div class="news-card__content">
+								<div class="news-card__top">
+									<span class="news-card__date">20 июля 2024</span>
+									<a class="news-card__link" href="#">Новости</a>
+								</div>
+								<h4 class="news-card__title"><a href="#">Компания «Энерголаб» выступит спонсором выставки «Аналитика Экспо 2024».</a></h4>
+							</div>
+							<div class="news-card__footer">
+								<a class="news-card__more _icon-arrow-2" href="">Подробнее</a>
+							</div>
+						</div>
+						<div class="news__card news-card news-card_more">
+							<a class="news-card__more _icon-arrow-2" href="">Читать все новости</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__body">
+					<div class="footer__right">
+						<nav class="footer-menu">
+							<ul class="footer-menu__list">
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">О компании</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Новости</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Медиа</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Вакансии</a></li>
+								<li class="footer-menu__item"><a class="footer-menu__link" href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="footer-brands">
+							<h4 class="footer-brands__title">Бренды</h4>
+							<nav class="footer-brands-nav">
+								<ul class="footer-brands-nav__list">
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Sintecon</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Focused Photonics</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Agilent</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">GBC</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">XiangYi Instrument</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Optosky Spectroscopy Solutions</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">SAMBORI</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">SCP SCIENCE</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Sartorius</a></li>
+								</ul>
+								<ul class="footer-brands-nav__list">
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">HITEC</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">MembraPure</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Metrohm</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Anton Paar</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">ViBRA</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Miele Professional</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">СМАРТХРОМ</a></li>
+									<li class="footer-brands-nav__item"><a class="footer-brands-nav__link" href="#">Conostan</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__left">
+						<div class="footer__logo">
+							<img src="assets/img/logo-w.svg" alt="logo">
+						</div>
+						<div class="footer__info footer-info">
+							<div class="footer-info__item">
+								<span>107140, Россия, г. Москва, ул. Нижняя Красносельская, д. 5, стр. 6, к. 2</span>
+							</div>
+							<div class="footer-info__item">
+								<span>660021, Россия, г. Красноярск, ул. Дубровинского, 110</span>
+							</div>
+							<div class="footer-info__item footer-info__item_phone">
+								<a class="footer-info__phone" href="tel:84959260215">8 (495) 926-02-15</a>
+								<a class="footer-info__require" href="#">Заказать звонок</a>
+							</div>
+							<div class="footer-info__item">
+								<span>Напишите нам: <a class="footer-info__email" href="mailto:post@energolab.com">post@energolab.com</a></span>
+							</div>
+							<div class="footer-info__item">
+								<a class="footer-info__yt _icon-yt" href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<button class="move-up _fixed-block" type="button" data-move-up data-goto="header"></button>
+	
+
+	<!-- libs -->
+	<script src="assets/js/libs/lazyload.min.js"></script>
+	<script src="assets/js/libs/choices.min.js"></script>
+	<script src="assets/js/libs/nouislider.min.js"></script>
+	<script src="assets/js/libs/inputmask.min.js"></script>
+	<script src="assets/js/libs/justvalidate.min.js"></script>
+	<script src="assets/js/libs/datepicker.min.js"></script>
+	<script src="assets/js/libs/swiper.min.js"></script>
+	<script src="assets/js/libs/lightgallery.min.js"></script>
+	<script src="assets/js/libs/aos.min.js"></script>
+
+	<!-- plugins -->
+	<script src="assets/js/plugins/adapt.js"></script>
+	<script src="assets/js/plugins/menu.js"></script>
+	<script src="assets/js/plugins/modal.js"></script>
+	<script src="assets/js/plugins/tabs.js"></script>
+	<script src="assets/js/plugins/spoiler.js"></script>
+	<script src="assets/js/plugins/rating.js"></script>
+
+	<!-- files -->
+	<script src="assets/js/files/functions.js"></script>
+	<script src="assets/js/files/forms.js"></script>
+	<script src="assets/js/files/sliders.js"></script>
+	<script src="assets/js/files/scroll.js"></script>
+	<script src="assets/js/files/media.js"></script>
+	<script src="assets/js/files/scripts.js"></script>
+
+</body>
+
+</html>
