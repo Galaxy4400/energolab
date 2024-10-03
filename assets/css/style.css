@@ -7495,7 +7495,7 @@ textarea.input {
   font-weight: 700;
   line-height: 1;
 }
-@media (min-width: 75.0625em) {
+@media (min-width: 62em) {
   .directions-card_big {
     grid-column: span 2;
     display: grid;

@@ -96,7 +96,7 @@
 
 	// .directions-card_big
 	&_big {
-		@media (min-width: em($md1+1)) {
+		@media (min-width: em($md2+1)) {
 			grid-column: span 2;
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
