@@ -245,3 +245,37 @@
 	}
 
 }
+
+
+//===============================================================
+.recal-form {
+	// .recal-form__section
+	&__section {
+		display: grid;
+		gap: rem(30);
+	}
+	// .recal-form__title
+	&__title {
+	}
+	// .recal-form__row
+	&__row {
+		display: grid;
+		gap: rem(20);
+	}
+	// .recal-form__column
+	&__column {
+	}
+	// .recal-form__label
+	&__label {
+	}
+	// .recal-form__label-title
+	&__label-title {
+	}
+	// .recal-form__input
+	&__input {
+	}
+	// .recal-form__btn
+	&__btn {
+		justify-self: end;
+	}
+}

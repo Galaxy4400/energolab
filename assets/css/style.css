@@ -5905,7 +5905,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
  */
 ._req::after {
   content: "*";
-  color: var(--color-green);
+  color: var(--color-error);
   margin: 0px 0px 0px 0.1875rem;
 }
 
@@ -7652,4 +7652,16 @@ textarea.input {
   height: 3.75rem;
   color: var(--color-main);
   background: #fff;
+}
+
+.recal-form__section {
+  display: grid;
+  gap: 1.875rem;
+}
+.recal-form__row {
+  display: grid;
+  gap: 1.25rem;
+}
+.recal-form__btn {
+  justify-self: end;
 }

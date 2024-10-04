@@ -58,7 +58,7 @@
 ._req {
 	&::after {
 		content: '*';
-		color: var(--color-green);
+		color: var(--color-error);
 		margin: 0px 0px 0px rem(3);
 	}
 }

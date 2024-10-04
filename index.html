@@ -27,7 +27,7 @@
 						<div class="header-top__right">
 							<div class="header-top__contact">
 								<a class="header-top__phone" href="tel:84959260215">8 (495) 926-02-15</a>
-								<a class="header-top__callback" href="#">Заказать звонок</a>
+								<a class="header-top__callback" data-modal-opener="recal-form">Заказать звонок</a>
 							</div>
 							<a class="header-top__email" href="mailto:post@energolab.com">post@energolab.com</a>
 							<a class="header-top__yt _icon-yt" href="#"></a>
@@ -298,7 +298,7 @@
 							</div>
 							<div class="footer-info__item footer-info__item_phone">
 								<a class="footer-info__phone" href="tel:84959260215">8 (495) 926-02-15</a>
-								<a class="footer-info__require" href="#">Заказать звонок</a>
+								<a class="footer-info__require" data-modal-opener="recal-form">Заказать звонок</a>
 							</div>
 							<div class="footer-info__item">
 								<span>Напишите нам: <a class="footer-info__email" href="mailto:post@energolab.com">post@energolab.com</a></span>
@@ -313,15 +313,42 @@
 		</footer>
 	</div>
 
-	<button class="move-up _fixed-block" type="button" data-move-up data-goto="header"></button>
-	
+	<button class="move-up _fixed-block" type="button" data-move-up data-goto="header" data-fix-m></button>
+
+	<div id="modal">
+		<div data-modal="recal-form">
+			<form class="recal-form" action="./" method="post" data-form data-validation data-autocomplete-off>
+				<div class="recal-form__section">
+					<h2 class="recal-form__title">Заголовок формы</h2>
+					<div class="recal-form__row">
+						<div class="recal-form__column">
+							<label class="recal-form__label">
+								<span class="recal-form__label-title _req">ФИО</span>
+								<input class="recal-form__input input" type="text" name="name" required data-min="3">
+							</label>
+						</div>
+						<div class="recal-form__column">
+							<label class="recal-form__label">
+								<span class="recal-form__label-title _req">Номер телефонм</span>
+								<input class="recal-form__input input" type="tel" name="phone" required data-mask="+7 (999) 999-9999" data-mask-placeholder="_" data-mask-between="2">
+							</label>
+						</div>
+					</div>
+					<div class="recal-form__row">
+						<button class="recal-form__btn btn" type="submit">Отправить</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
 
 	<!-- libs -->
 	<!-- <script src="assets/js/libs/lazyload.min.js"></script> -->
 	<!-- <script src="assets/js/libs/choices.min.js"></script> -->
 	<!-- <script src="assets/js/libs/nouislider.min.js"></script> -->
-	<!-- <script src="assets/js/libs/inputmask.min.js"></script> -->
-	<!-- <script src="assets/js/libs/justvalidate.min.js"></script> -->
+	<script src="assets/js/libs/inputmask.min.js"></script>
+	<script src="assets/js/libs/justvalidate.min.js"></script>
 	<!-- <script src="assets/js/libs/datepicker.min.js"></script> -->
 	<!-- <script src="assets/js/libs/swiper.min.js"></script> -->
 	<!-- <script src="assets/js/libs/lightgallery.min.js"></script> -->
@@ -330,14 +357,14 @@
 	<!-- plugins -->
 	<script src="assets/js/plugins/adapt.js"></script>
 	<script src="assets/js/plugins/menu.js"></script>
-	<!-- <script src="assets/js/plugins/modal.js"></script> -->
+	<script src="assets/js/plugins/modal.js"></script>
 	<!-- <script src="assets/js/plugins/tabs.js"></script> -->
 	<!-- <script src="assets/js/plugins/spoiler.js"></script> -->
 	<!-- <script src="assets/js/plugins/rating.js"></script> -->
 
 	<!-- files -->
 	<script src="assets/js/files/functions.js"></script>
-	<!-- <script src="assets/js/files/forms.js"></script> -->
+	<script src="assets/js/files/forms.js"></script>
 	<!-- <script src="assets/js/files/sliders.js"></script> -->
 	<script src="assets/js/files/scroll.js"></script>
 	<!-- <script src="assets/js/files/media.js"></script> -->
