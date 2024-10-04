@@ -85,7 +85,7 @@ body {
 	h2 a,
 	h2 {
 		font-weight: 700;
-		font-size: rem(28);
+		@include adaptiv-value(font-size, 28, 22, 1);
 		line-height: normal;
 		text-transform: uppercase;
 		color: var(--color-titles);

@@ -250,12 +250,11 @@
 	&::before {
 		content: '';
 		position: absolute;
-		top: 50%;
+		@include adaptiv-value(top, 7, 5, 1);
 		left: rem(10);
-		height: calc(100% - rem(5));
+		@include adaptiv-value(height, 22, 20, 1);
 		width: rem(10);
 		background: var(--color-main);
 		transform: skew(-20deg);
-		translate: 0 -50%;
 	}
 }
