@@ -28,11 +28,15 @@
 		color: #fff;
 		max-width: rem(320);
 		@media (max-width: em($md4)) {
-			justify-self: end;
+			justify-self: start;
+			text-align: left;
 		}
 	}
 	// .footer__logo
 	&__logo {
+		@media (max-width: em($md4)) {
+			display: none;
+		}
 	}
 	// .footer__info
 	&__info {

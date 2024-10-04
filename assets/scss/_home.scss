@@ -106,6 +106,12 @@
 
 	// .directions-card_big
 	&_big {
+		.directions-card__image {
+			img {
+				object-position: top;
+			}
+		}
+
 		@media (min-width: em($md2+1)) {
 			grid-column: span 2;
 			display: grid;
@@ -115,7 +121,7 @@
 			.directions-card__image {
 				padding: 0;
 			}
-	
+
 			.directions-card__content {
 				padding: rem(25) rem(30) rem(60) rem(0);
 			}
@@ -224,6 +230,15 @@
 			display: inline-flex;
 			justify-content: center;
 			align-items: center;
+			transition: all 0.3s ease 0s;
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				color: var(--color-main-light);
+				&::before {
+					background: var(--color-main-light);
+				}
+			}
 		}
 	}
 
@@ -260,6 +275,15 @@
 				height: rem(60);
 				color: var(--color-main);
 				background: #fff;
+				transition: all 0.3s ease 0s;
+			}
+			@media (any-hover: hover) {
+				&:hover {
+					&::before {
+						background: var(--color-main-light);
+						color: #fff;
+					}
+				}
 			}
 		}
 	}

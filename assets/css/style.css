@@ -7357,7 +7357,13 @@ textarea.input {
 }
 @media (max-width: 29.9375em) {
   .footer__left {
-    justify-self: end;
+    justify-self: start;
+    text-align: left;
+  }
+}
+@media (max-width: 29.9375em) {
+  .footer__logo {
+    display: none;
   }
 }
 .footer-menu__list {
@@ -7559,6 +7565,10 @@ textarea.input {
   font-weight: 700;
   line-height: 1;
 }
+.directions-card_big .directions-card__image img {
+  -o-object-position: top;
+     object-position: top;
+}
 @media (min-width: 62em) {
   .directions-card_big {
     grid-column: span 2;
@@ -7686,6 +7696,16 @@ textarea.input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .news-card__more:hover {
+    color: var(--color-main-light);
+  }
+  .news-card__more:hover::before {
+    background: var(--color-main-light);
+  }
 }
 @media (min-width: 48em) {
   .news-card_big {
@@ -7727,6 +7747,14 @@ textarea.input {
   height: 3.75rem;
   color: var(--color-main);
   background: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .news-card_more .news-card__more:hover::before {
+    background: var(--color-main-light);
+    color: #fff;
+  }
 }
 
 .recal-form__section {
