@@ -71,13 +71,13 @@
  */
 .menu-icon {
 	display: none;
-	@media (max-width: em(500)) {
+	@media (max-width: em($md3)) {
 		display: block;
 		position: relative;
 		width: rem(30);
 		height: rem(18);
 		cursor: pointer;
-		z-index: 5;
+		z-index: 999;
 		span {
 			transition: all 0.3s ease 0s;
 			top: calc(50% - rem(1));
