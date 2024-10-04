@@ -33,9 +33,19 @@
 	border-radius: 0 rem(80) 0 rem(80);
 	// .directions-card__image
 	&__image {
+		overflow: hidden;
 		display: inline-block;
 		width: 100%;
 		padding: 0px 0px prc(240, 444) 0px;
+		img {
+			transition: all 0.5s ease 0s;
+			scale: 1.001;
+			@media (any-hover: hover) {
+				.directions-card:hover & {
+					scale: 1.05;
+				}
+			}
+		}
 	}
 	// .directions-card__content
 	&__content {
@@ -153,9 +163,19 @@
 	flex-direction: column;
 	// .news-card__image
 	&__image {
+		overflow: hidden;
 		display: inline-block;
 		width: 100%;
 		padding: 0px 0px prc(218, 327) 0px;
+		img {
+			transition: all 0.5s ease 0s;
+			scale: 1.001;
+			@media (any-hover: hover) {
+				.news-card:hover & {
+					scale: 1.05;
+				}
+			}
+		}
 	}
 	// .news-card__content
 	&__content {

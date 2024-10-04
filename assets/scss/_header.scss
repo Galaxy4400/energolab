@@ -32,6 +32,7 @@
 		}
 		@media (max-width: em($md3)) {
 			justify-content: start;
+			gap: rem(20) rem(20);
 		}
 	}
 	// .header-top__left
@@ -45,6 +46,7 @@
 		}
 		@media (max-width: em($md3)) {
 			display: grid;
+			gap: rem(20) rem(32);
 		}
 	}
 	// .header-top__address
@@ -70,6 +72,7 @@
 		@media (max-width: em($md3)) {
 			display: grid;
 			justify-content: start;
+			gap: rem(20) rem(48);
 		}
 	}
 	// .header-top__contact
@@ -77,6 +80,10 @@
 		display: flex;
 		align-items: center;
 		gap: rem(16);
+		@media (max-width: em($md3)) {
+			display: grid;
+			gap: rem(10);
+		}
 	}
 	// .header-top__phone
 	&__phone {
@@ -182,7 +189,7 @@
 			z-index: 50;
 			visibility: hidden;
 			transition: all 0.3s ease 0s;
-			padding: rem(120) rem(15) rem(30) rem(15);
+			padding: rem(120) rem(15);
 			&._active {
 				opacity: 1;
 				visibility: visible;
