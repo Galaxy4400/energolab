@@ -7566,8 +7566,8 @@ textarea.input {
   line-height: 1;
 }
 .directions-card_big .directions-card__image img {
-  -o-object-position: top right;
-     object-position: top right;
+  -o-object-position: calc(100% + 1.875rem) 0;
+     object-position: calc(100% + 1.875rem) 0;
 }
 @media (min-width: 62em) {
   .directions-card_big {

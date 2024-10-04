@@ -108,7 +108,7 @@
 	&_big {
 		.directions-card__image {
 			img {
-				object-position: top right;
+				object-position: calc(100% + rem(30)) 0;
 			}
 		}
 
