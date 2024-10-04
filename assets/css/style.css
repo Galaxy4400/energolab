@@ -7550,14 +7550,16 @@ textarea.input {
 }
 .directions-card__title a {
   color: #16408D;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
 }
 @media (any-hover: hover) {
   .directions-card__title a:hover {
     color: var(--color-main-dark);
   }
+}
+.directions-card__title_long a {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .directions-card__number {
   position: absolute;

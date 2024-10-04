@@ -83,11 +83,17 @@
 		margin: 0px 0px rem(10) 0px;
 		a {
 			color: #16408D;
-			hyphens: auto;
 			@media (any-hover: hover) {
 				&:hover {
 					color: var(--color-main-dark);
 				}
+			}
+		}
+		
+		// .directions-card__title_long
+		&_long {
+			a {
+				hyphens: auto;
 			}
 		}
 	}
