@@ -7550,6 +7550,9 @@ textarea.input {
 }
 .directions-card__title a {
   color: #16408D;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 @media (any-hover: hover) {
   .directions-card__title a:hover {
